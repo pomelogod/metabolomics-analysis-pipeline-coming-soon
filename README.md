@@ -1,4 +1,8 @@
-# Metabolomics Analysis Pipeline
+# Metabolomic Analysis Pipeline (Coming Soon)
+
+This repository is related to my work on a metabolomic analysis pipeline for Virginia Commonwealth University. Currently, the code is private as the associated paper is under peer review. The code and full details will be made available after publication. Stay tuned!
+
+For any inquiries, feel free to contact me at longsheng.xie41@gmail.com.
 
 This repository contains a set of Python scripts for performing metabolomics data analysis. The pipeline includes data preprocessing, statistical analysis, and enrichment analysis.
 
