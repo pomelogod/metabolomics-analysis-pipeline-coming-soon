@@ -1,0 +1,43 @@
+{
+    "global": {
+        "group_variables": [
+            "AlbCre/SPT3hKO","C/E"
+        ],
+        "id_translation_path": "./id_translation.csv",
+        "pathway_path": "./pathways.csv",
+        "merged_proteins_path": "./merged_proteins.csv"
+    },
+
+    "generate_groups": {
+        "output_for_data": "./output",
+        "num_of_values_for_each_group": 4,
+        "TukeyHSD_Adjusted_p_value_threshold": 0.1,
+        "upregulated_fold_change_threshold" : 1,
+        "downregulated_fold_change_threshold": 1
+    },
+
+    "statistic_analysis": {
+        "statistic_analysis_output_path": "./output/statistic_analysis.csv",
+        "figs_output_path": "./output/datasets_from_volcano_plots"
+    },
+
+    "heatmap": {
+        "output_dir": "./output",
+        "clustered_data_path": "./output/clustered_genes_log2fc_significance.csv",
+        "heatmap_fig_path": "./output/heatmap.png",
+        "datasets_dir": "./output/datasets_from_heatmap"
+    },
+
+    "data_selection": {
+        "selection_output_path": "./output"
+    },
+
+    "enrichment_analysis": {
+        "metabolite_sets_num": 2,
+        "output_path": "./output/enrichment_analysis_from_dataselection",
+        "metabolite_sets_num_for_plots": 50,
+        "metabolite_sets_num_for_network_view": 15,
+        "threshold_shared_hmdb": 10
+    }
+
+}
