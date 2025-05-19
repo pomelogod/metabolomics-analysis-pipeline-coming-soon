@@ -1,5 +1,8 @@
 # Metabolomic Analysis Pipeline - Metaboenrich
 
+**Demo Video**  
+Want a quick overview of how the pipeline works? Watch the 3-minute walkthrough here:  
+👉 [bit.ly/3H1TFCh](https://bit.ly/3H1TFCh) 
 
 This repository contains a set of Python scripts for performing metabolomics data analysis. The pipeline includes data preprocessing, statistical analysis, heatmap visualization, and enrichment analysis.
 
